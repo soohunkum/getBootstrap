@@ -11,7 +11,26 @@
 <title>부트스트랩 시작</title>
 </head>
 <body>
-	<h1>Hello, world!</h1>
+<nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class = "navbar-brand" href="#">Title</a>
+	<button class = "navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#alt" aria-controls="alt"
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+	<div class = "collapse navbar-collapse" id="alt">
+	<div class = "navbar-nav">
+	<a class = "nav-item nav-link active">Home<span class = "sr-only">(current)</span></a>
+	<a class = "nav-item nav-link">Features</a>
+	<a class = "nav-item nav-link">Pricing</a>
+	<a class = "nav-item nav-link">Blog</a>
+	</div>
+	<form class="form-inline ml-auto">
+	<input class = "form-control mr-2" type ="search" placeholder="Search" aria-label="search"/>
+	<button class = "btn btn-outline-success" type = "submit">search</button>
+	</form>
+	</div>
+</nav>
 <button class ="btn btn-info">버튼</button>
 <br/>
 <a href = "https://daum.net" class = "btn btn-primary">다음으로 이동</a>
@@ -24,7 +43,6 @@
 <a class = "btn btn-primary btn-lg" href = "#">Go</a><!-- 클래스 설명 : 버튼 설정 버튼 모양 크기 -->
 </p><!-- 문단을 강조 -->
 </div>
-
 
 
 	<!-- jQuery, Popper.js, and Bootstrap JS -->
